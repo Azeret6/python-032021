@@ -31,8 +31,6 @@ print(res.summary())
 import requests
 import pandas as pd
 import statsmodels.formula.api as smf
-import seaborn
-import matplotlib.pyplot as plt
 
 r = requests.get("https://raw.githubusercontent.com/pesikj/progr2-python/master/data/Fish.csv")
 open("Fish.csv", 'w', encoding="utf-8").write(r.text)
